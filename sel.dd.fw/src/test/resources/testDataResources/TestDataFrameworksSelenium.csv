@@ -1,0 +1,4 @@
+LoginName,LoginPass,Amount,Description,ExpectedMsg,,,
+Username,password,200,Fund Transfer $200,You successfully submitted your transaction.,,,
+Username,password,300,Fund Transfer $300,You successfully submitted your transaction.,,,
+Username,password,400,Fund Transfer $400,You successfully submitted your transaction.,,,
