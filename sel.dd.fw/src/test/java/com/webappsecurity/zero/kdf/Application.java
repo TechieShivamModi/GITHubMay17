@@ -1,5 +1,7 @@
-package kdf;
+package com.webappsecurity.zero.kdf;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 
 import org.testng.Assert;
@@ -38,7 +40,7 @@ public class Application {
 			case "verifyErrorMsg":
 				String actualMsg = method.getErrorMessage(data[i][4], data[i][5]);
 				String expectedMsg = data[i][6];
-				Assert.assertEquals(actualMsg, expectedMsg);
+				AssertJUnit.assertEquals(actualMsg, expectedMsg);
 				break;
 			case "closeApp":
 				method.closeApplication();
