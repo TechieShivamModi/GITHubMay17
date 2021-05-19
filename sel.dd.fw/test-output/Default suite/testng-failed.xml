@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.webappsecurity.zero.testscripts.VerifyFundTransferTest">
+      <class name="kdf.Application">
         <methods>
-          <include name="verifyFundTransfer"/>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
+          <include name="verifyInvalidLogin"/>
         </methods>
-      </class> <!-- com.webappsecurity.zero.testscripts.VerifyFundTransferTest -->
+      </class> <!-- kdf.Application -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
